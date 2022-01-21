@@ -1,0 +1,15 @@
+<nav class="navbar navbar-expand navbar-dark bg-dark">
+    <div class="container-fluid">
+        <div class="navbar-brand">
+            <a class="navbar-item" routerLink="/">
+                <img src="assets/logo.png" height="75">
+            </a>
+        </div>        
+    </div>
+    <div class="navbar-nav">
+        <a class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" routerLink="/">Home</a>
+        <a class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" routerLink="/cuisine">Cuisine</a>
+        <a class="nav-link" routerLinkActive="active" routerLink="/comments">Comments</a>
+    </div>
+</nav>
+<h1 class="m-5 text-center text-info">{{ pageTitle }}</h1>

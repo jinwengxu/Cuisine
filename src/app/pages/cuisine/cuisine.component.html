@@ -1,0 +1,11 @@
+<div class="mt-5 cuisine-list">
+    <h3>Cuisines</h3>
+    <ul class="list-group mx-auto">
+        <li class="list-group-item bg-light shadow mt-3" *ngFor='let cuisine of cuisines'>
+            <a [routerLink]="['/cuisine', cuisine.id]">{{ cuisine.type | uppercase }}</a>
+        </li>    
+    </ul>
+    <p class="mt-5">Discover healthy, highly-rated recipes that all come in at around 600 calories per portion.</p>
+    <p> Packed with nutrients to help you feel more focused, refreshed and alert.</p>
+    <p class="text-danger">Click on a Type of Cuisine to see a list of Recipes.</p>
+</div>

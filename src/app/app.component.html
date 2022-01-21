@@ -1,0 +1,20 @@
+<!-- Header is here -->
+<app-header [pageTitle]="pageTitle" (dataEmitter)="captureEmittedData($event)"></app-header>
+
+<!-- Main content is here -->
+<div class="container text-center">  
+  <!-- Router page is here -->  
+  <router-outlet></router-outlet>  
+</div>
+<div class="lightpink mx-auto mb-2 text-center">
+  <p class="p-3">Please review our <a class="terms-link" (click)="seeTerms()">{{ terms }}</a></p>
+</div>
+
+<!-- Footer is here -->
+<div class="container-fluid text-center mt-4 bg-dark">  
+  <p class="text-white-50 small py-5"> 
+    Copyright © 2021 The ABC Healthy Food Inc. All rights Reserved 
+    <a class="terms-link" (click)="seeTerms()">{{ terms }}</a>  
+  </p>
+</div>
+
