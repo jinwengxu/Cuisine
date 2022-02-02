@@ -1,6 +1,6 @@
 # cuisine
-Cuisine Single Page Applicaion(SPA) with the use of Angular's routing and Bootstrap responsive design.
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.0.
+## Cuisine Single Page Applicaion(SPA) with the use of Angular's routing and Bootstrap responsive design.
+## This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.0.
 
 ## developement server
 
